@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T08:00:06.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="evP5uBmLBicZVORBHOWj" version="18.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-27T08:05:55.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="IOgsCasppVnFJnT-2sfa" version="18.1.3" type="github" pages="2">
   <diagram id="iD3K9P5zcAiu_BfH19ib" name="Page-1">
     <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1607,10 +1607,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4K_rBnYKdiH95gvrRSTD-283" value="&lt;span style=&quot;text-align: left;&quot;&gt;ACCOUNT_CODE（科目）&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;SUB_ACCOUNT_CODE（子目）&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;PERIOD_NAME（期间）&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="314" y="-960" width="212" height="96" as="geometry" />
+          <mxGeometry x="314" y="-984" width="212" height="96" as="geometry" />
         </mxCell>
         <mxCell id="ILb1g_daz5fxCXfTolej-1" value="CUX_TRA_INF_AP_INV_DETAILS" style="shape=table;startSize=24;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="48" y="-998" width="192" height="414" as="geometry" />
+          <mxGeometry x="24" y="-876" width="192" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ILb1g_daz5fxCXfTolej-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
           <mxGeometry y="24" width="192" height="30" as="geometry" />
@@ -1620,7 +1620,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-4" value="ACCOUNT_CODE          " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-2">
+        <mxCell id="ILb1g_daz5fxCXfTolej-4" value="SEGMENT3" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-2">
           <mxGeometry x="30" width="162" height="30" as="geometry">
             <mxRectangle width="162" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1633,7 +1633,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-7" value="ACCOUNT_NAME          " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-5">
+        <mxCell id="ILb1g_daz5fxCXfTolej-7" value="SEGMENT4" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-5">
           <mxGeometry x="30" width="162" height="30" as="geometry">
             <mxRectangle width="162" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1646,7 +1646,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-10" value="PERIOD_AMOUNT         " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-8">
+        <mxCell id="ILb1g_daz5fxCXfTolej-10" value="CURRENT_PERIOD" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-8">
           <mxGeometry x="30" width="162" height="30" as="geometry">
             <mxRectangle width="162" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1659,124 +1659,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-13" value="PERIOD_NAME" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-11">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="144" width="192" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-15" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-14">
-          <mxGeometry width="30" height="24" as="geometry">
-            <mxRectangle width="30" height="24" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-16" value="END_NET_BALANCE       " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-14">
-          <mxGeometry x="30" width="162" height="24" as="geometry">
-            <mxRectangle width="162" height="24" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="168" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-18" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-17">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-19" value="AP_BALANCE            " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-17">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="198" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-20">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-22" value="NON_AP_BALANCE        " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-20">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="228" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-24" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-23">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-25" value="BALANCE               " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-23">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="258" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-27" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-26">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-28" value="CLEANING_STATUS       " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-26">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="288" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-30" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-29">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-31" value="SUB_ACCOUNT_CODE      " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-29">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="318" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-33" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-32">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-34" value="SUB_ACCOUNT_NAME      " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-32">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="348" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-36" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-35">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-37" value="INVOICE_NUM           " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-35">
-          <mxGeometry x="30" width="162" height="30" as="geometry">
-            <mxRectangle width="162" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-1">
-          <mxGeometry y="378" width="192" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-72" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="ILb1g_daz5fxCXfTolej-71">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILb1g_daz5fxCXfTolej-73" value="WL_FLAG" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-71">
+        <mxCell id="ILb1g_daz5fxCXfTolej-13" value="INVOICE_NUM" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="ILb1g_daz5fxCXfTolej-11">
           <mxGeometry x="30" width="162" height="30" as="geometry">
             <mxRectangle width="162" height="30" as="alternateBounds" />
           </mxGeometry>
