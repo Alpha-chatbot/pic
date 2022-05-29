@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T15:48:24.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="ekCj-RreKqd7Xq8OOc8Z" version="18.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-29T15:52:49.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="52r-7_vG-z7_tSKqYL1G" version="18.1.3" type="github" pages="2">
   <diagram id="iD3K9P5zcAiu_BfH19ib" name="Page-1">
     <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1608,7 +1608,7 @@
         <mxCell id="4K_rBnYKdiH95gvrRSTD-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4K_rBnYKdiH95gvrRSTD-277" target="d89aQO5S400w2RCGTo_3-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4K_rBnYKdiH95gvrRSTD-277" value="查询条件PERIOD_NAME" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4K_rBnYKdiH95gvrRSTD-277" value="头表的查询条件PERIOD_NAME" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="-1132" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4K_rBnYKdiH95gvrRSTD-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4K_rBnYKdiH95gvrRSTD-2" target="4K_rBnYKdiH95gvrRSTD-283" edge="1">
@@ -1619,6 +1619,11 @@
               <mxPoint x="420" y="-1044" />
               <mxPoint x="420" y="-984" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygsVLvhte2LDsQTnUZiQ-289" value="获取行表的查询条件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4K_rBnYKdiH95gvrRSTD-282">
+          <mxGeometry x="0.3511" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mCgnZHt4JeRyqirGUfQX-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.426;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4K_rBnYKdiH95gvrRSTD-283" target="ILb1g_daz5fxCXfTolej-1">
@@ -1793,7 +1798,7 @@
         <mxCell id="mCgnZHt4JeRyqirGUfQX-13" value="IF(INVOICE_NUM = TEX_NUM)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="84" y="-540" width="150" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ygsVLvhte2LDsQTnUZiQ-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.438;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mCgnZHt4JeRyqirGUfQX-16" target="ygsVLvhte2LDsQTnUZiQ-1">
+        <mxCell id="ygsVLvhte2LDsQTnUZiQ-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.457;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mCgnZHt4JeRyqirGUfQX-16" target="ygsVLvhte2LDsQTnUZiQ-282">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mCgnZHt4JeRyqirGUfQX-16" value="CUX_TRA_ACCOUNT_DETAILS" style="shape=table;startSize=24;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
@@ -3125,7 +3130,12 @@
             <mxRectangle width="201" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ygsVLvhte2LDsQTnUZiQ-282" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ygsVLvhte2LDsQTnUZiQ-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ygsVLvhte2LDsQTnUZiQ-282">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="-348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygsVLvhte2LDsQTnUZiQ-282" value="汇总各表数据，存入行表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="276" y="-528" width="300" height="84" as="geometry" />
         </mxCell>
       </root>
