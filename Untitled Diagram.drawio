@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:39:25.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HAyawryZinIzu4TrUgN5" version="21.1.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-13T09:12:17.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="be95oa5EouI7bsN0gMO-" version="21.1.7" type="github" pages="8">
   <diagram id="iD3K9P5zcAiu_BfH19ib" name="Page-1">
     <mxGraphModel dx="1050" dy="1710" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4260,7 +4260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="清欠工作台" id="X5LrZDZjvXPuSbNpd8fQ">
-    <mxGraphModel dx="1050" dy="2877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="2877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="salWMXpbHYncqQx0VoQ9-0" />
         <mxCell id="salWMXpbHYncqQx0VoQ9-1" parent="salWMXpbHYncqQx0VoQ9-0" />
@@ -4822,6 +4822,71 @@
         </mxCell>
         <mxCell id="EDRF0G2cO-E_Luwq9TF7-26" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="891" y="400" width="68.5" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="应收" id="2zcXb3B3o7RddD1ZkmFn">
+    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="EvqsMMsv9Uo7i3-9Pt29-0" />
+        <mxCell id="EvqsMMsv9Uo7i3-9Pt29-1" parent="EvqsMMsv9Uo7i3-9Pt29-0" />
+        <mxCell id="EvqsMMsv9Uo7i3-9Pt29-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EvqsMMsv9Uo7i3-9Pt29-1" source="EvqsMMsv9Uo7i3-9Pt29-60" target="EvqsMMsv9Uo7i3-9Pt29-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvqsMMsv9Uo7i3-9Pt29-60" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="EvqsMMsv9Uo7i3-9Pt29-1">
+          <mxGeometry x="245" y="20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5h8Km_1okCPtuU05eqss-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EvqsMMsv9Uo7i3-9Pt29-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="251" y="120" as="sourcePoint" />
+            <mxPoint x="251" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5h8Km_1okCPtuU05eqss-1" value="保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5h8Km_1okCPtuU05eqss-0">
+          <mxGeometry x="-0.26" y="-4" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wm1Uy5plfzObAmeM8u-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EvqsMMsv9Uo7i3-9Pt29-1" source="EvqsMMsv9Uo7i3-9Pt29-61" target="9_wm1Uy5plfzObAmeM8u-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_wm1Uy5plfzObAmeM8u-5" value="下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_wm1Uy5plfzObAmeM8u-4">
+          <mxGeometry x="-0.26" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvqsMMsv9Uo7i3-9Pt29-61" value="财务清理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EvqsMMsv9Uo7i3-9Pt29-1">
+          <mxGeometry x="220" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XlN_CPtTnKutsTfOkbkS-0" value="勾销操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EvqsMMsv9Uo7i3-9Pt29-1">
+          <mxGeometry x="210" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5h8Km_1okCPtuU05eqss-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EvqsMMsv9Uo7i3-9Pt29-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="120" as="sourcePoint" />
+            <mxPoint x="284" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="284" y="160" />
+              <mxPoint x="284" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5h8Km_1okCPtuU05eqss-3" value="导入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5h8Km_1okCPtuU05eqss-2">
+          <mxGeometry x="-0.26" y="-4" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKDmAwVtaxoNsLkIYYNA-1" value="业务角色" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EvqsMMsv9Uo7i3-9Pt29-1">
+          <mxGeometry x="531" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gxqFZGvYGRDxaG46Rsxj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EvqsMMsv9Uo7i3-9Pt29-1" source="9_wm1Uy5plfzObAmeM8u-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_wm1Uy5plfzObAmeM8u-3" value="下发发票数据行，业务角色下生成待办" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EvqsMMsv9Uo7i3-9Pt29-1">
+          <mxGeometry x="390" y="90" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
